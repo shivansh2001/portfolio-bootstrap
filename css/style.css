@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('../img/bg.png') no-repeat center center/cover;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+#navbar ul {
+    display: flex;
+    
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 7px 35px;
+    margin: 8px 3px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:active {
+    color: black;
+    background-color: white;
+     
+}
+
+
+#home-section{
+    height: 700px;
+    align-items: center;
+    display: flex;
+}
+
+.info ul {
+    display: flex;
+    margin: 0px 200px;
+}
+
+.info ul li {
+    list-style: none;
+    font-size: 30px;
+}
+
+.info ul li a {
+    color: black;
+    display: block;
+    padding: 0px 21px;
+    text-decoration: none;
+
+
+}
+
+.info ul li a:hover,
+.info ul li a:active {
+    color: white;
+}
+
+#about-section {
+    border-top: 4px solid white;
+    border-radius: 25px;
+
+}
+
+.about {
+    font-size: 16px;
+    color: white;
+    
+}
+
+.about p {
+    padding: 6px 39px;
+    transition: all 0.5s ease-out;
+    font-size: 20px;
+
+}
+
+.about p:hover{
+    border: 10px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    opacity: 0.7;
+
+
+}
+
+#qualification-section {
+    border-top: 4px ridge white;
+    border-radius: 25px;
+
+}
+
+.qualification {
+    color: white;
+}
+
+.qualification ul {
+    padding: 6px 39px;
+    transition: all 0.5s ease;
+}
+.qualification ul:hover{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    opacity: 0.7;
+}
+
+.qualification ul li{
+    padding: 6px 39px;
+    transition: all 0.5s ease-out;
+    font-size: 20px;
+}
+
+
+.qualification ul li:hover{
+    transform: translate(12px, 12px);
+    
+}
+
+
+#skill-section {
+    border-top: 4px ridge white;
+    border-radius: 25px;
+
+}
+
+.skills {
+    color: white;
+}
+
+.skills ul {
+    padding: 6px 39px;
+    transition: all 0.5s ease-out;
+    font-size: 20px;
+}
+.skills ul:hover{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    opacity: 0.7;
+}
+
+.skills ul li{
+    padding: 6px 39px;
+    transition: all 0.5s ease-out;
+}
+
+.skills ul li:hover{
+    transform: translate(12px, 12px);
+}
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 14px;
+    justify-content: center;
+    display: flex;
+    opacity: 0.7;
+}
+
+.center a h6{
+    color: white;
+}
+
+.center a h6:hover{
+    font-weight: 800;
+    color: royalblue;
+}

@@ -5,7 +5,7 @@ html{
 body {
     background: url('../img/bg.png') no-repeat center center/cover;
     font-family: 'Montserrat', sans-serif;
-    
+ 
 }
 
 #navbar {
@@ -29,17 +29,14 @@ body {
 #navbar ul li a {
     color: white;
     display: block;
-    padding: 7px 35px;
-    margin: 8px 3px;
-    border-radius: 20px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a:active {
-    color: black;
-    background-color: white;
-     
+    color: grey; 
+
 }
 
 
@@ -51,7 +48,6 @@ body {
 
 .info ul {
     display: flex;
-    margin: 0px 200px;
 }
 
 .info ul li {
@@ -61,11 +57,10 @@ body {
 
 .info ul li a {
     color: black;
-    display: block;
     padding: 0px 21px;
     text-decoration: none;
-
-
+    align-items: flex-end;
+    display: flex;
 }
 
 .info ul li a:hover,

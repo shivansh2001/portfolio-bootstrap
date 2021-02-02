@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background: url('../img/bg.png') no-repeat center center/cover;
+    background: url('../img/bg2.jpg') no-repeat center center/cover;
     font-family: 'Montserrat', sans-serif;
  
 }
@@ -44,6 +44,9 @@ body {
     height: 700px;
     align-items: center;
     display: flex;
+    justify-content: center;
+    color: white;
+
 }
 
 .info ul {
@@ -56,16 +59,15 @@ body {
 }
 
 .info ul li a {
-    color: black;
-    padding: 0px 21px;
+    color: white;
+    padding: 0px 11px;
     text-decoration: none;
-    align-items: flex-end;
     display: flex;
 }
 
 .info ul li a:hover,
 .info ul li a:active {
-    color: white;
+    color: black;
 }
 
 #about-section {
@@ -116,6 +118,7 @@ body {
     background-color: black;
     border-radius: 40px;
     opacity: 0.7;
+    border: 10px solid black;
 }
 
 .qualification ul li{
@@ -151,6 +154,7 @@ body {
     background-color: black;
     border-radius: 40px;
     opacity: 0.7;
+    border: 10px solid black;
 }
 
 .skills ul li{
@@ -180,3 +184,4 @@ footer {
     font-weight: 800;
     color: royalblue;
 }
+

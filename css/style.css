@@ -41,7 +41,7 @@ body {
 
 
 #home-section{
-    height: 700px;
+    height: 100vh;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -70,18 +70,29 @@ body {
     color: black;
 }
 
-#about-section {
-    border-top: 4px solid white;
-    border-radius: 25px;
-
-}
+/* About me section */
 
 .about {
     font-size: 16px;
-    color: white;
-    
+    color: white; 
 }
 
+.about h2{
+    border-bottom: 3px solid white;
+}
+
+/* .about img:hover{
+    overflow: hidden;
+    width: 500px
+    height: 600px;
+    animation: slide 400s linear infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX();
+    }
+} */
 .about p {
     padding: 6px 39px;
     transition: all 0.5s ease-out;
@@ -99,14 +110,12 @@ body {
 
 }
 
-#qualification-section {
-    border-top: 4px ridge white;
-    border-radius: 25px;
-
-}
-
 .qualification {
     color: white;
+}
+
+.qualification h2{
+    border-bottom: 3px solid white;
 }
 
 .qualification ul {
@@ -133,15 +142,12 @@ body {
     
 }
 
-
-#skill-section {
-    border-top: 4px ridge white;
-    border-radius: 25px;
-
-}
-
 .skills {
     color: white;
+}
+
+.skills h2{
+    border-bottom: 3px solid white;
 }
 
 .skills ul {

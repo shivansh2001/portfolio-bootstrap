@@ -24,6 +24,7 @@ body {
 
 #navbar ul li {
     list-style: none;
+    
 }
 
 #navbar ul li a {
@@ -31,6 +32,7 @@ body {
     display: block;
     padding: 10px 12px;
     text-decoration: none;
+  
 }
 
 #navbar ul li a:hover,
@@ -49,9 +51,12 @@ body {
 
 }
 
+
 .info ul {
     display: flex;
+    white-space: nowrap;
 }
+
 
 .info ul li {
     list-style: none;
@@ -77,22 +82,14 @@ body {
     color: white; 
 }
 
+.about img{
+    
+}
+
 .about h2{
     border-bottom: 3px solid white;
 }
 
-/* .about img:hover{
-    overflow: hidden;
-    width: 500px
-    height: 600px;
-    animation: slide 400s linear infinite;
-}
-
-@keyframes slide{
-    0%{
-        transform: translateX();
-    }
-} */
 .about p {
     padding: 6px 39px;
     transition: all 0.5s ease-out;

@@ -51,12 +51,10 @@ body {
 
 }
 
-
 .info ul {
     display: flex;
     white-space: nowrap;
 }
-
 
 .info ul li {
     list-style: none;
